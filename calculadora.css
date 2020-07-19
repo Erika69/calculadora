@@ -1,0 +1,71 @@
+*{
+	margin:2;
+	padding:1;	
+}
+
+body{
+	background-color:#C6FEEB;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 80px;
+	border-left: dashed;
+	border-right: dashed;
+}
+
+table{
+	border: solid;
+	background: linear-gradient(to right, #A901DB, #C6FEEB, #04B4AE);
+	box-shadow: 0px 10px 115px 1px #9B9E9E;
+}
+
+td > button{
+	height:70px;
+	width:70px;
+}
+
+td > button > b {
+	font-size: 25px;
+}
+
+td .p{
+	background:#BDBDBD;
+}
+
+.pantalla {
+	width: 310px;
+	height: 100px;
+	border: solid;
+	background: #fff;
+	margin:6px auto;
+}
+
+.panta  {
+	width: 20px;
+	height: 25px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.pant  {
+	width: 123px;
+	height: 30px;
+	font-size: 30px;
+	text-align: right;
+}
+
+.pantallita  {
+	width: 123px;
+	height: 30px;
+	font-size: 30px;
+
+}
+
+td > .igual{
+	height:140px;
+	width:70px;
+	background:#A4A4A4;
+}
+
+td > .color{
+	background:#E6E6E6;
+}

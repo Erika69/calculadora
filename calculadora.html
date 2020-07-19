@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet"  type="text/css" href="calculadora.css">
+	<script src="JS/calculadora.js"></script>
+</head>
+<body>
+	<center>
+		<table class="cal">
+			<tr>
+				<td colspan="4">
+					<table class="pantalla">
+						<td>
+							<center>
+								<div class="pant" id="pantalla"></div>
+							</td>
+							<td>
+								<div class="panta" id="panta"></div>
+							</td>
+							<td>
+								<div class="pantallita" id="pantallita"></div>
+							</td>
+						</center>
+					</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td><button onclick="borrar();" class="p"><h3>CE</h3></button></td>
+				<td><button onclick="negativo();" class="p"><b>+/-</b></button></td>
+				<td><button onclick="multiplicar();"class="p"><b>x</b></button></td>
+				<td><button onclick="dividir();" class="p"><b>/</b></button></td>
+			</tr>
+			<tr>
+				<td><button onclick="nueve(); "class="color"><b>9</b></button></td>
+				<td><button onclick="ocho(); "class="color"><b>8</b></button></td>
+				<td><button onclick="siete();" class="color"><b>7</b></button></td>
+				<td><button onclick="resta();" class="p"><b>-</b></button></td>
+			</tr>
+			<tr>
+				<td><button onclick="seis(); " class="color"><b>6</b></button></td>
+				<td><button onclick="cinco();" class="color"><b>5</b></button></td>
+				<td><button onclick="cuatro();" class="color"><b>4</b></button></td>
+				<td><button onclick="suma();" class="p"><b>+</b></button></td>
+			</tr>
+			<tr>
+				<td><button onclick="tres();" class="color"><b>3</b></button></td>
+				<td><button onclick="dos();" class="color"><b>2</b></button></td>
+				<td><button onclick="uno();" class="color"><b>1</b></button></td>
+				<td  onclick="igual();"rowspan="2" class="igual"><button class="igual"><h2>=</h2></button></td>
+			</tr>
+			<tr>
+				<td><button onclick="porcentaje();" class="p"><b>%</b></button></td>
+				<td><button onclick="cero();" class="color"><b>0</b></button></td>
+				
+				<td><button onclick="binarios();" class="p"><h3>BIN</h3></button></td>
+			</tr>
+		</table>
+	</center>
+
+</body>
+</html>
